@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"type="text/css"href="/style.css" />
+                <!--boox icon link-->
+            <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+            <!--remix icon link-->
+            <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+
+            <!--google font link-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <!--header-->
+    <header>
+        <a href="#"class="logo">Developer <span> Hossam </span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navlist">
+            <li><a href="#home"> Home </a></li>
+            <li><a href="#about"> About </a></li>
+            <li><a href="#services"> services </a></li>
+            <li><a href="#project"> project </a></li>
+            <li><a href="#contact"> contact </a></li>
+        </ul>
+        <!-- <div class="top-btn">
+            <a href="#" class="h-btn">contact me</a>
+        </div> -->
+    </header>
+
+
+    <main class="wrapper">
+        <section class="featured-box" id="home" data-aos="fade-in">
+            <div class="featured-text">
+                <div class="featured-text-card">
+                    <h2>Hi, There </h2>
+                </div>
+                <div class="featured-name">
+                    <h1>I'm<span> Hossam Abu-Elhasen</span></h1>
+                </div>
+                <div class="featured-text-info">
+                    <p> Experienced Full stack developer a passion for creating visually stunning 
+                        and user-friendely websites   
+                    </p> 
+                </div>
+                <div class="featured-text-btn">
+                    <button class="btn" onclick="location.href='mailto:toteehossam@gmail.com';">Hire me</button>
+                    <button class="btn btn2" onclick="openCV()">Show CV <i class="uil uil-file-alt"></i></button>
+                </div>
+
+                <div class="social">
+                    <a href="https://www.facebook.com/hossamtotee/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/hossam-abu-elhassan-402b29249/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="https://github.com/HossamAbuElhasen" target="_blank"><i class="ri-github-fill"></i></a>
+                </div>  
+            </div>
+
+            <div class="featured-image">
+                <div class="image">
+                    <img src="/pic7.png" alt="avatar" >
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <!--about section-->
+    <section class="about" id="about">
+        <div class="about-img" data-aos="zoom-in-down">
+            <img src="/pic7.png" alt="avatar">
+        </div>
+        <div class="about-text" data-aos="zoom-in-up">
+            <h2>I am <span> Web developer</span></h2>
+        <div class="exp-area">
+            <p class="exp">
+                Experience:
+                <span> 2 years </span>
+            </p>
+            <p class="exp">
+                Freelance:
+                <span>Available</span>
+            </p>
+            <p class="exp">
+                Address:
+                <span>Luxor, Egypt </span>
+            </p>
+            <p class="exp">
+                phone:
+                <span>+201097237412</span>
+            </p>
+            <p class="exp">
+               
+                Email:<span>toteehossam@gmail.com </span>
+            </p>
+        </div>
+        <a href="https://github.com/HossamAbuElhasen?tab=repositories" target="_blank" class="btn">View All project <i class="ri-github-fill"></i></a>
+        </div>
+    </section>
+
+
+    <!-- services -->
+    <section class="services" id="services">
+        <div class="center-text" data-aos="fade-down">
+            <h2>My <span>Services</span></h2>
+        </div>
+    
+        <div class="services-content" data-aos="zoom-in-up">
+            <div class="box">
+                <img src="/computer-fill.png" alt="project">
+                <h3>Front-end Development</h3>
+                <p>I specialize in creating visually appealing and interactive user interfaces using technologies such as HTML, CSS, Sass, Bootstrap, JavaScript, TypeScript, and React.js. Ensuring seamless user experiences is my top priority.</p>
+            </div>
+    
+            <div class="box">
+                <img src="/computer-fill.png" alt="project">
+                <h3>Back-end Development</h3>
+                <p>With expertise in back-end technologies like PHP,SQL, and Laravel, I build robust server-side components to ensure the functionality and performance of web applications. Your data security is my concern.</p>
+            </div>
+    
+            <div class="box">       
+                <img src="/computer-fill.png" alt="project">
+                <h3>C# Windows Application Development</h3>
+                <p>Building desktop applications using C# is one of my strengths. I create efficient and user-friendly Windows applications tailored to your specific requirements. Let me bring your ideas to life.</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!--project-->
+    <section class="project" id="project">
+        <div class="center-text" data-aos="fade-down">
+            <h2>My <span>Project</span></h2>
+        </div>
+    
+        <div class="project-content" data-aos="zoom-in-up">
+            <div class="row">
+                <a href="https://cybrog-flame.vercel.app/" target="_blank">
+                    <img src="/cybrog.png" alt="cybrog">
+                </a>
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5> Template</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href="https://cybrog-flame.vercel.app/" target="_blank">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <p>this website development by using React.js</p>
+            </div>
+    
+            <div class="row">
+                <a href="https://hossamabuelhasen.github.io/Erutgural-page/" target="_blank">
+                    <img src="/Eurt.png" alt="Eurtgul">
+                </a>
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5> series site </h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href="https://hossamabuelhasen.github.io/Erutgural-page/" target="_blank">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <p>this website development by using Html, css, bootstrap</p>
+            </div>
+    
+            <div class="row">
+                <a href="https://your-e-commerce-website-link" target="_blank">
+                    <img src="/commerc.png" alt="e-commerce">
+                </a>
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>E-commerce</h5>
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-github-fill"></i>
+                    </div>
+                </div>
+                <p>this website development by React.js in front-end and strapi in back-end </p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--contact-->
+    <section class="contact" id="contact">
+        <div class="center-text">
+            <h2>Contact <span>me</span></h2>
+        </div>
+        <div class="contact-form">
+            <form id="myForm">
+                <input type="text" id="name" placeholder="Your name" required>
+                <input type="email" id="email" placeholder="Email address.." required>
+                <textarea id="message" cols="30" rows="10" placeholder="Write your message here.." required></textarea>
+                <input type="button" value="Send Message" class="send-btn" onclick="sendEmail()">
+            </form>
+        </div>
+    </section>
+
+
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="copyright">
+            <p> copyright &copy; 2024 <span>Hossam Abu-Elhasen </span>  All Rights Reserved </p>
+        </div>
+        <a href="#home" class="scroll-top">
+            <i class="ri-arrow-up-s-fill"></i>
+        </a>
+    </div>
+
+
+ 
+
+    <!--js link-->
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration:1400,
+
+      });
+    </script>
+
+</body>
+</html>
