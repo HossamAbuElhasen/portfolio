@@ -196,7 +196,7 @@ header.sticky{
 
 .featured-name{
     margin-block:10px;
-    font-size:30px;
+    font-size:28px;
     font-weight:900;
     line-height: 1.2;
 }
@@ -557,7 +557,16 @@ transform: scale(1);
 .row img{
     height: 380px;
     width: 300px;  
+    object-fit: cover;
+
     
+}
+
+.row .smail-image{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+
 }
 
 .main-row{
@@ -573,6 +582,13 @@ transform: scale(1);
     font-weight:600;
     color:#fff;
     padding-left: 5.4rem;
+}
+
+.row .eq{
+    font-size: 18px;
+    font-weight:600;
+    color:#fff;  
+    padding-left: 10px;
 }
 
 .row p{
