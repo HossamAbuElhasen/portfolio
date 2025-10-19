@@ -582,6 +582,8 @@ transform: scale(1);
     font-weight:600;
     color:#fff;
     padding-left: 5.4rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .row .eq{
@@ -592,7 +594,9 @@ transform: scale(1);
 }
 
 .row p{
-    margin: 0 0.4rem  0.4rem  0.4rem;
+    margin-left:0.8rem;
+    margin-bottom: 0.9rem;
+    margin-top: 0;
     color: var(--other-color);
 }
 
@@ -621,6 +625,56 @@ transform: scale(1);
     cursor: pointer;
 
 }
+
+.extra-projects {
+  display: none; /* نخفي الكروت الإضافية في البداية */
+}
+
+.extra-projects.show {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.3rem;
+  margin-top: 2rem;
+}
+
+.see-more-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#seeMoreBtn {
+  background: var(--main-color);
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+    margin-bottom: 20px;
+
+}
+
+#seeMoreBtn:hover {
+  background: #444;
+}
+
+.row .h-rest{
+    font-size: 20px;
+    font-weight:600;
+    color:#fff;
+    padding-left: 3.4rem;
+    margin-bottom: 5px;
+}
+
+.row .cover-img{
+      width: 100%;
+    object-fit: contain; /* يعرض الصورة كاملة بدون زوم */
+
+
+}
+
 
 
 
