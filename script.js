@@ -37,10 +37,12 @@ function sendEmail() {
     var body = encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message);
 
     // إنشاء الرابط لفتح التطبيق البريدي
-    var mailtoLink = "mailto:toteehossam@gmail.com?subject=" + subject + "&body=" + body;
+    var mailtoLink = "mailto:hossamabohassan942@gmail.com?subject=" + subject + "&body=" + body;
 
     // فتح نافذة بريد جديدة
     window.location.href = mailtoLink;
+
+    
 }
 
 
