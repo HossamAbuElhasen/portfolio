@@ -196,10 +196,16 @@ header.sticky{
 
 .featured-name{
     margin-block:10px;
-    font-size:28px;
+    font-size:19px;
     font-weight:900;
     line-height: 1.2;
 }
+@media (max-width: 768px) {
+  .featured-name {
+    font-size: 12px;
+  }
+}
+
 
 
 .featured-text-info p{
@@ -778,6 +784,7 @@ form .send-btn:hover{
     color: var(--text-color);
     font-size: 27px;
 }
+
 
 
 
