@@ -20,7 +20,7 @@ window.onscroll = ()=>{
 
 // فتح السيره الذاتيه
 function openCV() {
-    window.open('cv.html', '_blank');
+    window.open('cv/cv.html', '_blank');
 }
 
 
