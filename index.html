@@ -108,45 +108,7 @@
         </div>
     </section>
 
-
-    <!-- services -->
-    <section class="services" id="services">
-        <div class="center-text" data-aos="fade-down">
-            <h2>My <span>Services</span></h2>
-        </div>
-    
-        <div class="services-content" data-aos="zoom-in-up">
-            <div class="box">
-                <img src="/imgs/computer-fill.png" alt="project">
-                <h3>Full-Stack Development</h3>
-                <p>
-                    I develop complete and responsive web applications from front-end to back-end.
-                    Using modern technologies such as HTML, CSS, JavaScript, React.js, PHP, MySQL, and Laravel,
-                    I ensure both strong performance and an elegant user experience.
-                </p>            
-            </div>
-    
-            <div class="box">
-                <img src="/imgs/computer-fill.png" alt="project">
-                <h3>C# Windows Form Applications</h3>
-                <p>
-                    I design and build efficient desktop applications using C# and SQL databases.
-                    My systems feature clear interfaces, high performance, and reliable data management — 
-                    suitable for businesses like restaurants, stores, and administrative systems.
-                </p>           
-            </div>
-    
-            <div class="box">       
-                <img src="/imgs/computer-fill.png" alt="project">
-                <h3>Microsoft Office 365</h3>
-                <p>I have strong experience using Microsoft Office applications, including Word, Excel, and PowerPoint. I leverage these tools for data management, documentation, and presentations to enhance productivity.</p>
-            </div>
-        </div>
-    </section>
-    
-
-
-    <!--project-->
+   <!--project-->
     <section class="project" id="project">
     <div class="center-text" data-aos="fade-down">
         <h2>My <span>Project</span></h2>
@@ -217,6 +179,19 @@
                 <p>this website development by using Html, css, bootstrap</p>
                 </div>
 
+       <div class="row" onclick="window.open('Maintance/Maintance.html', '_blank')" style="cursor: pointer;">
+            <img class="cover-img" src="/Maintance/m1.png" alt="Maintance">
+
+            <div class="main-row">
+                <div class="row-text">
+                    <h5 class="h-rest">Maintance System</h5>
+                </div>
+            </div>
+
+            <p>Developed a desktop application for tracking maintenance tasks <br> C# (Windows Forms Application) and SQL</p>
+        </div>
+
+
 
         <div class="row">
             <a href="https://e-commerce-cyan-mu.vercel.app/" target="_blank">
@@ -282,6 +257,46 @@
         <button id="seeMoreBtn">See More</button>
     </div>
     </section>
+
+    
+    <!-- services -->
+    <section class="services" id="services">
+        <div class="center-text" data-aos="fade-down">
+            <h2>My <span>Services</span></h2>
+        </div>
+    
+        <div class="services-content" data-aos="zoom-in-up">
+            <div class="box">
+                <img src="/imgs/computer-fill.png" alt="project">
+                <h3>Full-Stack Development</h3>
+                <p>
+                    I develop complete and responsive web applications from front-end to back-end.
+                    Using modern technologies such as HTML, CSS, JavaScript, React.js, PHP, MySQL, and Laravel,
+                    I ensure both strong performance and an elegant user experience.
+                </p>            
+            </div>
+    
+            <div class="box">
+                <img src="/imgs/computer-fill.png" alt="project">
+                <h3>C# Windows Form Applications</h3>
+                <p>
+                    I design and build efficient desktop applications using C# and SQL databases.
+                    My systems feature clear interfaces, high performance, and reliable data management — 
+                    suitable for businesses like restaurants, stores, and administrative systems.
+                </p>           
+            </div>
+    
+            <div class="box">       
+                <img src="/imgs/computer-fill.png" alt="project">
+                <h3>Microsoft Office 365</h3>
+                <p>I have strong experience using Microsoft Office applications, including Word, Excel, and PowerPoint. I leverage these tools for data management, documentation, and presentations to enhance productivity.</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+ 
 
     
 
@@ -650,7 +665,7 @@
 
       });
 
-        const seeMoreBtn = document.getElementById('seeMoreBtn');
+  const seeMoreBtn = document.getElementById('seeMoreBtn');
   const extraProjects = document.querySelector('.extra-projects');
 
   seeMoreBtn.addEventListener('click', () => {
